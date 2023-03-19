@@ -1,12 +1,12 @@
 import React from 'react'
 import Header from './component/Header'
-import Mainbody from './component/Mainbody'
+import Home from './component/HomePage/Home'
 
 export default function App() {
   return (
       <>
       <Header/>
-      <Mainbody/>
+      <Home/>
       </>
   
   )
