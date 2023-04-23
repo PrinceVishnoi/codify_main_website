@@ -1,5 +1,5 @@
 .background-image {
-    background-image: url("../Imgaes/servicePic1.jpg");
+    background-image: url("./Assests/servicePic1.jpg");
     background-size: cover;
     background-position: center;
     height: 85vh;

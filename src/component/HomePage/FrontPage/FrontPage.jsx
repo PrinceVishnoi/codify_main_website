@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDBBtn } from 'mdb-react-ui-kit';
-import Video from '../Home Page Assests/MainPageVideo.mp4'
+import Video from "../Home Page Assests/MainPageVideo.mp4"
 
 export default function FrontPage() {
   return (
