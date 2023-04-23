@@ -1,14 +1,14 @@
 import React from 'react'
 import Header from './component/Header'
-import Home from './component/HomePage/Home'
 import { ChakraProvider } from '@chakra-ui/react'
+import MainComponent from './component/HomePage/MainComponent'
 
 export default function App() {
   return (
       <>
       <ChakraProvider>
       <Header/>
-      <Home/>   
+      <MainComponent/>
        </ChakraProvider>
       </>
   
