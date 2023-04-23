@@ -1,0 +1,107 @@
+.background-image {
+    background-image: url("../Imgaes/servicePic1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    width: 100% !important;
+    position: relative;
+  }
+  
+  .centered-text {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+    
+    
+  }
+  
+  .backgroundContaint {
+    color: #ffffff;
+    font-size: 110px;
+    
+  }
+  
+  .backgroundContaint2 {
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+  }
+  
+  .backgroundContaint3 {
+    font-size: 20px;
+    color: #cad2d6;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+    
+  }
+
+  .list {
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .list li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    font-size: 24px;
+    color: #03b2cb;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .backgroundContaint {
+      font-size: 60px;
+    }
+    .backgroundContaint2 {
+      font-size: 40px;
+    }
+    .backgroundContaint3 {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .backgroundContaint {
+      font-size: 50px;
+    }
+    .backgroundContaint2 {
+      font-size: 30px;
+    }
+    .backgroundContaint3 {
+      display:none;
+    }
+    .list {
+      flex-direction: column;
+      align-items: center;
+    }
+    .list li {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+    .icon {
+      font-size: 20px;
+      margin-right: 5px;
+    }
+    .centered-text {
+      width: 100%;
+      padding: 0 20px;
+    }
+    .zoom-in {
+      width: 150px;
+      height: 40px;
+      font-size: 12px;
+    }
+  }

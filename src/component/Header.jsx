@@ -11,6 +11,7 @@ import {
   MDBCollapse,
   MDBNavbarBrand
 } from 'mdb-react-ui-kit';
+import { NavLink } from 'react-router-dom';
 
 export default function Header() {
   const [showBasic, setShowBasic] = useState(false);
@@ -32,13 +33,19 @@ export default function Header() {
           <MDBCollapse navbar show={showBasic}>
             <MDBNavbarNav className='justify-content-end' style={{boxShadow: 'none' }}>
               <MDBNavbarItem active>
-                <MDBNavbarLink className='text-white' aria-current='page' href='#'>
-                  Home
+                <MDBNavbarLink className='text-white' aria-current='page' >
+                <NavLink to="/">
+                Home
+                </NavLink>
+                  
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
                 <MDBNavbarLink className='text-white' href='#services'>
+                 
+                  <NavLink to="/services">
                   Services
+                </NavLink>
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
