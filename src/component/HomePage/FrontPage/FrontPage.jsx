@@ -1,12 +1,12 @@
 import React from 'react';
 import { MDBBtn } from 'mdb-react-ui-kit';
-import Video from "../Home Page Assests/MainPageVideo.mp4"
+import Video from "../Home Page Assests/Video.mp4"
 
 export default function FrontPage() {
   return (
     <>
       <div id="maindiv" style={{ position: 'relative', height: '700px', textAlign: 'center' }}>
-        <video src={Video} autoPlay loop muted style={{ position: 'absolute', left: 0, top: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: 0.7 }} alt="Custom Web Development, App Development, and UI/UX Design Services video"></video>
+      <video src={Video} autoPlay loop style={{ position: 'absolute', left: 0, top: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: 0.7 }} alt="Custom Web Development, App Development, and UI/UX Design Services video"></video>
         <h1 style={{ fontSize: '5vw', padding: '15vw 40px 10px 40px', lineHeight: '6.5vw', color: '#02042b', letterSpacing: '-2px', position: 'relative', zIndex: 1 }}>
           Custom Web Development, App Development, and UI/UX Design Services
         </h1>
