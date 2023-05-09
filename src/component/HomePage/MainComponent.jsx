@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from './Footer'
 import SecondMainSection from './SecondSection/SecondMainSection'
 import SecondMainSectionText from './SecondSection/SecondMainSectionText'
 import ContactForm from './Form/ContactForm'
@@ -16,7 +15,7 @@ export default function MainComponent() {
       <Rating/>
       <WithSpeechBubbles/>
       <ContactForm/>
-    <Footer/>
+
     </>
   )
 }

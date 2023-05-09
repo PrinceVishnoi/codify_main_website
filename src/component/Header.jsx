@@ -8,7 +8,7 @@ import {
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 
-const Links = ['Services', 'Projects', 'Team','Careers'];
+const Links = ['services', 'Projects', 'Team','Careers'];
 
 const NavLink = ({ children }: { children: ReactNode }) => (
   <Link
@@ -42,7 +42,7 @@ export default function Header() {
           <Flex alignItems={'center'}>
             <Box display={{ base: 'none', md: 'block' }}>
               {Links.map((link) => (
-                <NavLink key={link}>{link}</NavLink>
+                <NavLink key={link}  to={link}>{link}</NavLink>
               ))}
             </Box>
             <IconButton
